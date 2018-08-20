@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4a22ea8-cc58-4895-a83b-716e4159c66d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1754004039">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5768" />
+          <entry key="PLAIN_TEXT" value="403" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="45" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="45" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="5768" />
+          <entry key="txt" value="403" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/_1_Arrays/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/testes/Telefone.java" />
+        <option value="$PROJECT_DIR$/src/testes/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/testes/Carros.java" />
+        <option value="$PROJECT_DIR$/src/testes/Estudante.java" />
+        <option value="$PROJECT_DIR$/src/testes/CriarEstudante.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/exemplo.txt" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/Local.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/Professor.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/Aluno.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/Seminario.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/classes/Aluno.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/classes/Local.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/classes/Professor.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/teste/SeminarioTest.java" />
+        <option value="$PROJECT_DIR$/src/_4_projeto_seminarios/classes/Seminario.java" />
+        <option value="$PROJECT_DIR$/src/_5_heranca/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/_5_heranca/Atleta.java" />
+        <option value="$PROJECT_DIR$/src/_5_heranca/Trabalhador.java" />
+        <option value="$PROJECT_DIR$/src/_5_heranca/CorredorCrianca.java" />
+        <option value="$PROJECT_DIR$/src/_5_heranca/PessoaTest.java" />
+        <option value="$PROJECT_DIR$/src/_6_toString/Mostrar.java" />
+        <option value="$PROJECT_DIR$/src/_6_toString/Exemplo.java" />
+        <option value="$PROJECT_DIR$/src/_7_Modificador_Final/CarroTest.java" />
+        <option value="$PROJECT_DIR$/src/_7_Modificador_Final/Carro.java" />
+        <option value="$PROJECT_DIR$/src/_9_Classes_abstratas/Gerente.java" />
+        <option value="$PROJECT_DIR$/src/_9_Classes_abstratas/Vendedor.java" />
+        <option value="$PROJECT_DIR$/src/_9_Classes_abstratas/Funcionario.java" />
+        <option value="$PROJECT_DIR$/src/_9_interfaces/Produto.java" />
+        <option value="$PROJECT_DIR$/src/_9_interfaces/ProdutoTest.java" />
+        <option value="$PROJECT_DIR$/src/_10_Exceptions/Exemplo.java" />
+        <option value="$PROJECT_DIR$/src/_10_Exceptions_e_Scanner/Exemplo.java" />
+        <option value="$PROJECT_DIR$/src/_10_Exceptions_e_Scanner/Exemplo2_invocarExessão.java" />
+        <option value="$PROJECT_DIR$/src/_10_Exceptions_e_Scanner/Exemplo3_MultiplasExessões.java" />
+        <option value="$PROJECT_DIR$/src/_11_ClassesWrapper/Tipos.java" />
+        <option value="$PROJECT_DIR$/src/_11_Tipos_e_ClassesWrapper/Tipos.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="961" />
+    <option name="y" value="33" />
+    <option name="width" value="949" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Curso de java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curso de java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso de java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curso de java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso de java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curso de java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_11_Tipos_e_ClassesWrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534787971617" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Exemplo3_MultiplasExessões">
+    <configuration name="Exemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_Exceptions_e_Scanner.Exemplo" />
+      <module name="curso de java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_Exceptions_e_Scanner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exemplo3_MultiplasExessões" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_Exceptions_e_Scanner.Exemplo3_MultiplasExessões" />
+      <module name="curso de java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_Exceptions_e_Scanner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mostrar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_6_toString.Mostrar" />
+      <module name="curso de java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_6_toString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_Relacionamento_entre_classes.Pessoa" />
+      <module name="curso de java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_Relacionamento_entre_classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_5_heranca.PessoaTest" />
+      <module name="curso de java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_5_heranca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeminarioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_4_projeto_seminarios.teste.SeminarioTest" />
+      <module name="curso de java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_4_projeto_seminarios.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Pessoa" />
+      <item itemvalue="Application.SeminarioTest" />
+      <item itemvalue="Application.PessoaTest" />
+      <item itemvalue="Application.Mostrar" />
+      <item itemvalue="Application.Exemplo" />
+      <item itemvalue="Application.Exemplo3_MultiplasExessões" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Exemplo3_MultiplasExessões" />
+        <item itemvalue="Application.Exemplo" />
+        <item itemvalue="Application.Mostrar" />
+        <item itemvalue="Application.PessoaTest" />
+        <item itemvalue="Application.SeminarioTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4a22ea8-cc58-4895-a83b-716e4159c66d" name="Default" comment="" />
+      <created>1534385909118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534385909118</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="961" y="33" width="949" height="1066" extended-state="4" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19644839" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3263889" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32785088" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/_1_Arrays/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_2_Relacionamento_entre_classes/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_2_Relacionamento_entre_classes/Telefone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+    <entry file="file://$PROJECT_DIR$/src/testes/Carros.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+    <entry file="file://$PROJECT_DIR$/src/testes/Estudante.java" />
+    <entry file="file://$PROJECT_DIR$/src/testes/CriarEstudante.java" />
+    <entry file="file://$PROJECT_DIR$/src/_4_projeto_seminarios/classes/Seminario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_4_projeto_seminarios/classes/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_4_projeto_seminarios/teste/SeminarioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_4_projeto_seminarios/exemplo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_4_projeto_seminarios/classes/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_4_projeto_seminarios/classes/Local.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_5_heranca/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_5_heranca/Atleta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_5_heranca/Trabalhador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_5_heranca/PessoaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_5_heranca/CorredorCrianca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_6_toString/Mostrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_6_toString/Exemplo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_7_Modificador_Final/CarroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_7_Modificador_Final/Carro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_8_Classes_abstratas/Gerente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_8_Classes_abstratas/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_8_Classes_abstratas/Vendedor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_9_interfaces/ProdutoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_9_interfaces/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_10_Exceptions_e_Scanner/Exemplo2_invocarExessão.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_10_Exceptions_e_Scanner/Exemplo3_MultiplasExessões.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_10_Exceptions_e_Scanner/Exemplo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_11_Tipos_e_ClassesWrapper/Tipos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>curso de java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

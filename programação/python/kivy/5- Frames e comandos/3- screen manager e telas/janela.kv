@@ -1,0 +1,17 @@
+<Gerenciador>:
+    Screen:
+        Button:
+            text: 'ir pra tela1'
+            on_press: root.current= 'Tela1'
+    Tela1:
+        name: "Tela1"
+    Tela2:
+        name: "Tela2"
+
+
+<Tela1>:
+    #telas nao tem ids tem nomes
+    FloatLayout:
+        Button:
+            text: "ir pra tela 2"
+            #root.current faz referencia a tela atual

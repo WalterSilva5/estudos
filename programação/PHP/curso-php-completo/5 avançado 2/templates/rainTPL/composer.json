@@ -1,0 +1,13 @@
+{
+    "name": "waltersilva5/projeto",
+    "description": "teste de composer",
+    "authors": [
+        {
+            "name": "waltersilva5",
+            "email": "waltersilva5@outlook.com"
+        }
+    ],
+    "require": {
+        "rain/raintpl": ">=3.0.0"
+    }
+}

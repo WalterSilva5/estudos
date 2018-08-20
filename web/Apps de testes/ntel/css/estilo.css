@@ -1,0 +1,131 @@
+*{
+  overflow-x: hidden;
+}
+  
+.botao{
+    border:0;
+    background: transparent;
+}
+p{
+  overflow: hidden;
+}
+
+div{
+  overflow: hidden;
+}
+body{
+    margin-right: -50;;
+    padding:0;
+    overflow-x: hidden;
+}
+.navbar-brand img{
+    width:200px;
+}
+.nav-link{
+    margin: 0px 12px;
+    color: white;
+}
+
+.banner_central{
+    width:100%;
+}
+.anuncio{
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.btn-light:hover{
+    background-color: white;
+}
+.recuar{
+  margin-left: -30px;
+}
+
+
+/*rodape*/
+#rodape{
+	background-color: rgb(31, 30, 30);
+	padding: 50px 0px 50px 0px;
+}
+
+#rodape h4{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(209, 209, 209);
+}
+
+#rodape a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	margin-right: 50px;
+
+}
+#img-logo{
+    width:200px;
+}
+/*rodape*/
+.galeria img{
+    border: 1px solid rgb(196, 196, 196);
+    transition: 0.5s;
+}
+.galeria img:hover{
+    box-shadow: 15px 10px black;
+    margin-left:-5px;
+    border: 2px dotted black;
+}
+.galeria button{
+padding: 0;
+margin: 20px;
+border-radius: 20px;
+}
+.galeria button:hover{
+    box-shadow: 15px 10px black;
+    border: 2px dotted black;
+}
+
+  /*
+   * Custom translucent site header
+   */
+  
+   .site-header {
+	background-color: rgba(0, 0, 0, .85);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+	color: #999;
+	transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+
+  
+
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  
+  .flex-equal > * {
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
+	flex: 1;
+  }
+  @media (min-width: 768px) {
+	.flex-md-equal > * {
+	  -ms-flex: 1;
+	  -webkit-box-flex: 1;
+	  flex: 1;
+	}
+  }
+  
+  .overflow-hidden { overflow: hidden; }
+  
+  /*-----------------------------------*/

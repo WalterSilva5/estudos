@@ -1,0 +1,61 @@
+"""VPL - Atividade 39 - Desafio 1 (Conto de Fadas)
+Disponível até: segunda, 13 Nov 2017, 08:00
+Número máximo de arquivos: 1
+Tipo de trabalho: Trabalho individual
+
+João gosta de ouvir contos de fadas, especialmente quando Joaquim, o melhor amigo de João, conta as histórias. Agora Joaquim conta a João mais um conto de fadas:
+
+"Era uma vez um imperador, muito rico e com muito grão. Um dia mandou construir um enorme celeiro para colocar lá todo o seu grão. Os melhores trabalhadores estavam construindo esse celeiro por três dias e três noites. Mas eles negligenciaram e lá permaneceu um pequeno buraco no celeiro, do qual todos os dias, pardais passavam por ele para entrar no celeiro. A cada dia voava um pardal, pegava um grão e voava para bem longe…"
+
+Mais formalmente, o seguinte acontece no conto de fadas. No início do primeiro dia, o celeiro com a capacidade de n grãos estava cheio. Então, todos os dias (começando com o primeiro dia) acontece o seguinte:
+
+            m grãos são trazidos para o celeiro. Se m grãos não cabem no celeiro, o celeiro fica cheio e os grãos que sobraram são trazidos de volta (neste problema podemos supor que os grãos que não couberam no celeiro não são considerados).
+            Os pardais vêm comer os grãos. No i-enésimo dia, vêm i pardais, isto é, no primeiro dia vem um pardal, no segundo dia chegam dois pardais e assim por diante. Cada pardal come um grão. Se o celeiro estiver vazio, um pardal não come nada.
+
+João está cansado de ouvir como Joaquim descreve cada pardal que come o grão do celeiro. João não sabe quando o conto de fadas termina, então ele pediu para você determinar: ao final de qual dia o celeiro ficará vazio pela primeira vez? Ajude João e escreva um programa que determinará o número desse dia!
+
+Dados de Entrada
+
+A única linha da entrada contém dois inteiros positivos n e m, que são respectivamente: a capacidade do celeiro (n) e o número de grãos (m) que são trazidos todos os dias.
+
+O seu programa deve pedir ao usuário, que digite dois valores inteiros, n e m.
+
+Dados de Saída
+
+Um número inteiro – o programa irá exibir o número do dia em que o celeiro ficará vazio pela primeira vez. Os dias são numerados começando por um.
+
+Exemplos válidos para o problema:
+
+Entrada (input) – O que o usuário digitou
+
+5    2
+
+Saída (output) – O que o programa exibiu
+
+4
+
+
+Entrada (input) – O que o usuário digitou
+
+8     1
+
+Saída (output) – O que o programa exibiu
+
+5
+
+
+Nota:
+
+No primeiro exemplo a capacidade do celeiro é de cinco grãos e dois grãos são trazidos todos os dias. O seguinte acontece:
+
+            No início do primeiro dia, os grãos são trazidos para o celeiro. O celeiro está cheio, então nada acontece.
+            No final do primeiro dia, um pardal vem e come um grão, então: 5 - 1 = 4 grãos permanecem.
+            No início do segundo dia, dois grãos são trazidos. O celeiro fica cheio e um grão não coube (foi devolvido).
+            No final do segundo dia, chegam dois pardais, então: 5 - 2 = 3 grãos permanecem.
+            No início do terceiro dia, são trazidos dois grãos. O celeiro fica cheio novamente.
+            Ao final do terceiro dia, três pardais vêm comer os grãos, então: 5 - 3 = 2 grãos permanecem.
+            No início do quarto dia, os grãos são trazidos novamente, então: 2 + 2 = 4 grãos permanecem.
+            No final do quarto dia, quatro pardais vêm comer os grãos, então: 4 - 4 = 0 grãos permanecem. Nesse caso, o celeiro está vazio.
+
+Então a resposta é 4, porque no final do quarto dia o celeiro fica vazio."""
+

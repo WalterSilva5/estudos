@@ -1,0 +1,15 @@
+<Tela1>:
+    #função que converte cores de exadecimal para rgba do kivy
+    #importamos essa função dando a ela o nome C
+    #:import C kivy.utils.get_color_from_hex
+    Button:
+        text: "bt1"
+        size_hint: (.5, .5)
+        pos_hint: {'x': .25,'y': .5}
+        #mudamos a cor usando a função C
+        #C é o alias para o nome da função get_color_from_hex
+        background_color: C("#FFFFFF")
+        #removemos a cor padrão
+        background_normal: ""
+        #mudamos a cor do texto
+        color: C("#000000")
