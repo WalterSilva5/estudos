@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    function testaNumero(){
+        try{
+            throw "erro da excessão";
+        }catch(erro){
+            window.alert("ocorreu um erro: "+erro);
+        }finally{
+            window.alert("alerta padrão")
+        }     
+
+
+    
+    }
+
+</script>
+</head>
+<body>
+
+<p id="paragrafo">Iniciar contagem</p>
+<button type="button" onclick="testaNumero()">Clique Aqui</button>
+</body>
+</html>

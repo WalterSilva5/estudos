@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    var cont = 0
+    function mostrar(){
+        cont++;
+        if (cont<10){
+        document.getElementById("paragrafo").innerHTML = "O botao foi clicado "+cont+"X ";
+        }
+        else{
+        cont = 0;
+        mostrar();
+        }
+    }
+</script>
+</head>
+<body>
+
+<p id="paragrafo">Iniciar contagem</p>
+<button type="button" onclick="mostrar()">Clique Aqui</button>
+
+</body>
+</html>
