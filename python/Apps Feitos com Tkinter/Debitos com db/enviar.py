@@ -39,8 +39,8 @@ def adiciona_anexo(msg, filename):
     mime.add_header('Content-Disposition', 'attachment', filename=filename)
     msg.attach(mime)
 
-de = 'mercadinhoquepreco@gmail.com'
-para = ['mercadinhoquepreco@gmail.com']
+de = 'email@gmail.com'
+para = ['email@gmail.com']
 
 msg = MIMEMultipart()
 msg['From'] = de
@@ -56,6 +56,6 @@ adiciona_anexo(msg, 'clientes.db')
 raw = msg.as_string()
 
 smtp = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-smtp.login('mercadinhoquepreco@gmail.com','saramilena')
+smtp.login('email@gmail.com','senha')
 smtp.sendmail(de, para, raw)
 smtp.quit()
