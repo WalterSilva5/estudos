@@ -41,7 +41,9 @@ class Lista(object):
         while perc.proximo != None
             if count == indice:
                 break
-            return perc.elemento
+            perc = perc.proximo
+            cont+=1
+        return perc.elemento
 
 
 
