@@ -1,6 +1,7 @@
+#coding=utf-8
 class Lista(object):
     def __init__(self):
-        self.tamanho = 0
+        self.__tamanho = 0
         self.inicio = None
 
     class No:
@@ -17,37 +18,41 @@ class Lista(object):
             while perc.proximo is not None:
                 perc = perc.proximo
             perc.proximo = no
-        self.tamanho +=1
+        self.__tamanho +=1
 
-    def pop(self, indice=None):
-        """ao não passar um indice para o metodo pop ele ira remover o ultimo
-            elemento da lista e em seguida removelo"""
-        print("lista antiga:\n")
-        print(self.__str__())
-        perc = self.inicio
-        ultimo = self.inicio
-        if indice == None:
-            while perc.proximo is not None:
-                perc = perc.proximo
-                ultimo = perc.elemento
-            perc.elemento=None
+    def addIndex(self, indice, elemento):
+        if indice == 0:
+            print("adiciona no inicio")
+        elif indice == self.__tamanho:
+            no = No(elemento)
+            perc = self.inicio
+            self.inicio = no
+            no.proximo = perc
+            self.__tamanho +=1
         else:
-           """ao passar um parametro o metodo pop ira remover o elemento no
-               indice definido"""
-           while perc.indice is not None:
-                if(perc.indice == indice):
-                    ultimo = perc.indice
-                    perc = None
-                    break
-                perc = perc.proximo
-        print("elemento removido: {}\n".format(ultimo))
-        print("nova lista:\n")
-        print(self.__str__())
+            no = No(elemento)
+
+
+    def getIndex(self, indice):
+        perc = self.inicio
+        if self.__tamanho==0:
+            return "[]"
+        count = 0
+        while perc.proximo != None
+            if count == indice:
+                break
+            return perc.elemento
+
+
+
+
+
+
     def append(self):
         pass
 
     def __len__(self):
-        return self.tamanho
+        return self.__tamanho
     def __str__(self):
         result = "[{}, ".format(self.inicio.elemento)
         perc = self.inicio
@@ -65,4 +70,5 @@ ll.add("a")
 ll.add("b")
 ll.add("c")
 ll.add("d")
+print(ll)
 ll.pop()
