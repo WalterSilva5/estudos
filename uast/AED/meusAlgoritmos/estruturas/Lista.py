@@ -32,6 +32,21 @@ class Lista(object):
         else:
             no = No(elemento)
 
+    def __setitem__(self, posicao, valor):
+        if self.__tamanho == 0 or posicao ==self.__tamanho-1:
+            self.add(valor)
+        else:
+            count = 0
+            perc = self.inicio
+            while cont != posicao:
+                perc = perc.proximo
+                count +=1
+            perc.elemento = valor
+
+
+
+    def __getitem__(self, indice):
+        return self.getIndex(indice=)
 
     def getIndex(self, indice):
         perc = self.inicio
@@ -43,6 +58,7 @@ class Lista(object):
                 break
             perc = perc.proximo
             cont+=1
+
         return perc.elemento
 
 
