@@ -1,4 +1,3 @@
-#coding=utf-8
 class Lista(object):
     def __init__(self):
         self.__tamanho = 0
@@ -22,47 +21,37 @@ class Lista(object):
 
     def addIndex(self, indice, elemento):
         if indice == 0:
-            print("adiciona no inicio")
-        elif indice == self.__tamanho:
-            no = No(elemento)
-            perc = self.inicio
+            no = self.No(elemento)
+            no.proximo = self.inicio
             self.inicio = no
-            no.proximo = perc
-            self.__tamanho +=1
+            self.__tamanho += 1
+        elif indice == self.__tamanho:
+            self.add(elemento)
         else:
-            no = No(elemento)
-
-    def __setitem__(self, posicao, valor):
-        if self.__tamanho == 0 or posicao ==self.__tamanho-1:
-            self.add(valor)
-        else:
-            count = 0
+            no = self.No(elemento)
+            cont = 0
             perc = self.inicio
-            while cont != posicao:
+            while cont < indice-1:
                 perc = perc.proximo
-                count +=1
-            perc.elemento = valor
+                cont+=1
+            temp = perc.proximo
+            perc.proximo = no
+            perc = self.inicio
 
+            while perc.proximo is not None:
+                perc = perc.proximo
+            perc.proximo = temp
 
-
-    def __getitem__(self, indice):
-        return self.getIndex(indice=)
-
-    def getIndex(self, indice):
+    def __setitem__(self, indice, elemento):
+        cont = 0
         perc = self.inicio
-        if self.__tamanho==0:
-            return "[]"
-        count = 0
-        while perc.proximo != None
-            if count == indice:
-                break
+        while cont < indice:
             perc = perc.proximo
             cont+=1
+        perc.elemento = elemento
 
-        return perc.elemento
 
-    def __len__(self):
-        return self.__tamanho
+
     def __str__(self):
         result = "[{}, ".format(self.inicio.elemento)
         perc = self.inicio
@@ -74,11 +63,11 @@ class Lista(object):
         result+="]"
         return result
 
-ll = Lista()
+li = Lista()
+li.add("a")
+li.add("b")
+li.add("c")
+li.add("d")
 
-ll.add("a")
-ll.add("b")
-ll.add("c")
-ll.add("d")
-print(ll)
-ll.pop()
+li[1] = "K"
+print(li)
