@@ -15,6 +15,40 @@ class ArvoreBuscaBinaria:
         def __repr__(self):
             return self.__str__()
 
+
+    def inserir(self, valor):
+        pai_atual = None
+        atual = self.__raiz  # começando pela raiz
+        novo = self.No(valor)  # criando o novo nó com o valor
+
+        # vamos descer a partir da raiz
+        # para encontrar a posição correta para inserir
+        while atual is not None:
+            pai_atual = atual
+
+            # se o valor que queremos inserir for menor
+            # ir para a sub-árvore da esquerda
+            # caso contrário, ir para a sub-árvore da direita
+            if novo.valor < atual.valor:
+                atual = atual.esquerda
+            else:
+                atual = atual.direita
+
+        # o último pai encontrado será o pai do novo nó
+        # caso não exista, o novo nó será a raiz da árvore
+        novo.pai = pai_atual
+
+        if pai_atual is None:
+            # novo não tem pai, é o nó raiz
+            self.__raiz = novo
+        elif novo.valor < pai_atual.valor:
+            # novo é menor que o pai, então é um filho a esquerda
+            pai_atual.esquerda = novo
+        else:
+            # novo é maior que o pai, então é um filho a direita
+            pai_atual.direita = novo
+
+
     def minimo(self, atual=None):
         # se atual não tem valor inicial, começar da raiz
         if atual is None:
