@@ -14,4 +14,13 @@ class Arvore():
         def __repr__(self):
             return self.__str__()
 
-    
+    def inserir(self, valor):
+        pai
+
+ar = Arvore()
+ar.inserir(4)
+ar.inserir(1)
+ar.inserir(3)
+ar.inserir(2)
+
+print(ar.maximo())

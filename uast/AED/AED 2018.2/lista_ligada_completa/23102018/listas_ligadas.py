@@ -1,9 +1,3 @@
-#######################################################$
-# Lista Simplesmente Ligada                            #
-#   - Implementação próxima a lista built-in do Python #
-# Prof. Ygor Amaral - UFRPE/UAST                       #
-#######################################################$
-
 import collections
 
 

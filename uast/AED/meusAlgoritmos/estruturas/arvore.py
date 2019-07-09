@@ -16,6 +16,10 @@ class ArvoreBuscaBinaria:
             return self.__str__()
 
 
+
+
+
+
     def inserir(self, valor):
         pai_atual = None
         atual = self.__raiz
@@ -38,6 +42,10 @@ class ArvoreBuscaBinaria:
             pai_atual.direita = novo
 
 
+
+
+
+
     def minimo(self, atual=None):
         if atual is None:
             atual = self.__raiz
@@ -45,6 +53,9 @@ class ArvoreBuscaBinaria:
             atual = atual.esquerda
 
         return atual
+
+
+
 
     def maximo(self, atual=None):
         if atual is None:
@@ -54,6 +65,9 @@ class ArvoreBuscaBinaria:
             atual = atual.direita
 
         return atual
+
+
+
 
     def buscar(self, valor):
         atual = self.__raiz
@@ -65,6 +79,9 @@ class ArvoreBuscaBinaria:
                 atual = atual.direita
 
         return atual
+
+
+
 
     def buscar_recursivo(self, valor):
 
@@ -80,6 +97,9 @@ class ArvoreBuscaBinaria:
 
         return recursao(self.__raiz, valor)
 
+
+
+
     def inserir(self, valor):
         pai_atual = None
         atual = self.__raiz
@@ -101,6 +121,10 @@ class ArvoreBuscaBinaria:
             pai_atual.esquerda = novo
         else:
             pai_atual.direita = novo
+
+
+
+
 
     def sucessor(self, valor):
         atual = self.buscar(valor)
