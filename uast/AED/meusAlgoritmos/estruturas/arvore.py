@@ -15,11 +15,6 @@ class ArvoreBuscaBinaria:
         def __repr__(self):
             return self.__str__()
 
-
-
-
-
-
     def inserir(self, valor):
         pai_atual = None
         atual = self.__raiz
@@ -41,11 +36,6 @@ class ArvoreBuscaBinaria:
         else:
             pai_atual.direita = novo
 
-
-
-
-
-
     def minimo(self, atual=None):
         if atual is None:
             atual = self.__raiz
@@ -53,9 +43,6 @@ class ArvoreBuscaBinaria:
             atual = atual.esquerda
 
         return atual
-
-
-
 
     def maximo(self, atual=None):
         if atual is None:
