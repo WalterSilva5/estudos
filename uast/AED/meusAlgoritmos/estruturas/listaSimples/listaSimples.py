@@ -20,5 +20,8 @@ class Lista():
             perc.proximo = no
         self.__tam +=1
         
+    def inserir(self):
+        
+        
     def __str__(self):
         pass
