@@ -5,6 +5,7 @@ class Lista(object):
         self.meio = None
         self.__tam = 0
         self.posicaoMeio = 0
+        
     class No:
         def __init__(self, valor):
             self.valor = valor
@@ -12,12 +13,12 @@ class Lista(object):
             self.proximo = None
 
     def moveMeioParaFrente(self):
-        if self.__tam%2 == 1:
+        if self.__tam%2 == 0:
             self.meio = self.meio.proximo
             self.posicaoMeio+=1
 
     def moveMeioParaTras(self):
-        if self.__tam%2 == 1:
+        if self.__tam%2 == 0:
             self.meio = self.meio.anterior
             self.posicaoMeio-=1
 
@@ -83,13 +84,12 @@ class Lista(object):
             return "Não esta na lista"
         atual = self.meio
         cont = self.posicaoMeio
-
-        if posicao >= self.posicaoMeio:
-            while cont <= posicao:
-                cont+=1
+        if posicao > self.posicaoMeio:
+            while cont < posicao-1:
                 atual = atual.proximo
+                cont+=1
         else:
-            while cont > posicao:
+            while cont>posicao-1:
                 atual = atual.anterior
                 cont-=1
 
@@ -103,4 +103,11 @@ lista.adicionar(4)
 lista.adicionar(5)
 lista.adicionar(6)
 lista.adicionar(7)
-print(lista.buscarPorPosicao(4))
+lista.adicionar(8)
+lista.adicionar(9)
+
+
+print(lista.posicaoMeio)
+print(lista.meio.valor)
+
+print(lista.buscarPorPosicao(5))
