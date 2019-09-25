@@ -1,24 +1,17 @@
-from listaDuplamenteEncadeada import ListaDuplamenteEncadeada
-from listaSimples import ListaDuplamenteEncadeada as listaSimples
+from listaDuplamenteEncadeada import Lista
 
-import time
+lista = Lista()
+lista.adicionar(1)
+lista.adicionar(2)
+lista.adicionar(3)
+lista.adicionar(4)
+lista.adicionar(5)
+lista.adicionar(6)
+lista.adicionar(7)
 
-listaDuplaA = ListaDuplamenteEncadeada()
-listaDuplaB = listaSimples()
 
-inicioA = time.time()
-
-for n in range(10000):
-    listaDuplaA.adicionar(n)
-    
-fimA = time.time()
-
-print("Tempo de execução: {:.2f} seg".format(fimA - inicioA))
-
-inicio = time.time()
-
-for n in range(10000):
-    listaDuplaB.adicionar(n)
-fim = time.time()
-
-print("Tempo de execução: {:.2f} seg".format(fim - inicio))
+print(lista.listarComIndices())
+print(lista.posicaoMeio)
+lista.removerPorIndice(5)
+print(lista.listarComIndices())
+print(lista.posicaoMeio)

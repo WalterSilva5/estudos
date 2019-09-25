@@ -12,6 +12,35 @@ class Lista(object):
             self.anterior = None
             self.proximo = None
 
+    def inserir(self, posicao, valor):
+        no = self.No(valor)
+        if posicao == self.__tam:
+            self.adicionar(valor)
+        else:
+            antigo = self.buscarPorPosicao(posicao)
+            no.proximo = antigo
+            no.anterior = antigo.anterior
+            antigo.anterior.proximo = no
+            self.__tam +=1
+            self.moveMeioParaFrente()
+
+    def removerPorValor(self, valor):
+        vaiRemover = self.buscarPorValor(valor)
+        vaiRemover.anterior.proximo = vaiRemover.proximo
+        self.__tam-=1
+        self.moveMeioParaTras()
+
+    def removerPorIndice(self, posicao):
+        vaiRemover = self.buscarPorPosicao(posicao)
+        vaiRemover.anterior.proximo = vaiRemover.proximo
+        self.__tam-=1
+        self.moveMeioParaTras()
+
+
+    def editar(self, posicao, valor):
+        no = self.buscarPorPosicao(posicao)
+        no.valor = valor
+
     def moveMeioParaFrente(self):
         if self.__tam%2 == 0:
             self.meio = self.meio.proximo
@@ -36,9 +65,24 @@ class Lista(object):
             no.anterior = self.fim
             self.fim = no
             self.inicio.anterior = self.fim
-            self.moveMeioParaFrente()
 
+        self.moveMeioParaFrente()
         self.__tam +=1
+
+    def listarComIndices(self):
+        if self.__tam==0:
+            return "[]"
+
+        cont = 0
+        texto = "["
+        atual = self.inicio
+        while cont <self.__tam:
+            texto+="'P{}': {}, ".format(cont,str(atual.valor))
+            atual = atual.proximo
+            cont+=1
+
+        texto=texto[:-2]+"]"
+        return texto
 
     def __str__(self):
         if self.__tam==0:
@@ -81,33 +125,17 @@ class Lista(object):
     
     def buscarPorPosicao(self, posicao):
         if posicao <0 or posicao > self.__tam:
-            return "Não esta na lista"
+            raise IndexError("Index fora da lista")
         atual = self.meio
         cont = self.posicaoMeio
         if posicao > self.posicaoMeio:
-            while cont < posicao-1:
+            while cont < posicao:
                 atual = atual.proximo
                 cont+=1
         else:
-            while cont>posicao-1:
+            while cont>posicao:
                 atual = atual.anterior
                 cont-=1
 
-        return cont
+        return atual
 
-lista = Lista()
-lista.adicionar(1)
-lista.adicionar(2)
-lista.adicionar(3)
-lista.adicionar(4)
-lista.adicionar(5)
-lista.adicionar(6)
-lista.adicionar(7)
-lista.adicionar(8)
-lista.adicionar(9)
-
-
-print(lista.posicaoMeio)
-print(lista.meio.valor)
-
-print(lista.buscarPorPosicao(5))
