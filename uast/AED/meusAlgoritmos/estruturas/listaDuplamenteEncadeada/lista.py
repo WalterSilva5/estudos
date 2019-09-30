@@ -121,6 +121,7 @@ class Lista(object):
             no.anterior = antigo.anterior
             no.proximo = antigo
             antigo.anterior = no
+            no.anterior.proximo = no
             self.moveMeioParaFrente()
 
     @property

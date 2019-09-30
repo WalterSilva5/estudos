@@ -1,7 +1,9 @@
 from lista import Lista
 
-lista = Lista(list("abcdefg"))
+lista = Lista(["a", "b", "c", "d"])
 
 print(lista)
-lista[3] = "km"
+
+lista.inserir(4, 10)
+
 print(lista)
