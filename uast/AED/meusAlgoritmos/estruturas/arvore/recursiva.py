@@ -20,20 +20,55 @@ class ArvoreBuscaBinaria:
 
     def add(self, valor):
         no = No(valor)
-        if self.__raiz is None:
+        atual = self.__raiz
+        if atual is None:
             self.__raiz = no
         else:
-            self.addRec(self.__raiz, no)# começa pela raiz
+            self.addRec(self.__raiz, no, atual.pai)# começa pela raiz
 
-    def addRec(self, atual, no):
+    def addRec(self, atual, no, pai):
+        no.pai = pai
         if no.valor > atual.valor:
             if atual.direita is None:
                 atual.direita = no
             else:
-                self.addRec(atual.direita, no) 
+                self.addRec(atual.direita, no, atual) 
         elif no.valor < atual.valor:
             if atual.esquerda is None:
                 atual.esquerda = no
             else:
-                self.addRec(atual.esquerda, no)
-            
+                self.addRec(atual.esquerda, no, atual)
+        else:
+            raise Exception("valor ja esta na lista")
+
+    def buscar(self, valor):
+        atual = self.__raiz
+
+        if atual.valor == valor:
+            return atual
+        else:
+            no = self.buscarNoRec(atual, valor)
+            if no is None:
+                raise Exception("valor não esta na arvore")
+            else:
+                return no
+
+    def buscarNoRec(self, atual, valor):
+        if atual is None:
+            return atual
+        elif atual.valor > valor:
+            return self.buscarNoRec(atual.esquerda, valor)
+        elif atual.valor < valor:
+            return self.buscarNoRec(atual.direita, valor)
+        else:
+            return atual
+
+a = ArvoreBuscaBinaria()
+
+a.add(1)
+a.add(2)
+a.add(3)
+a.add(4)
+a.add(5)
+
+print(a.buscar(3))
