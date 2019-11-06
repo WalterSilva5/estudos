@@ -1,4 +1,3 @@
-
 class No:
     def __init__(self, valor):
         self.pai = None
@@ -7,12 +6,11 @@ class No:
         self.valor = valor
 
         def __str__(self):
-            return str(self.valor)
+            return self.valor
 
         def __repr__(self):
             return self.__str__()
-
-
+            
 class ArvoreBuscaBinaria:
     def __init__(self):
         self.__raiz = None
@@ -25,6 +23,7 @@ class ArvoreBuscaBinaria:
             self.__raiz = no
         else:
             self.addRec(self.__raiz, no, atual.pai)# começa pela raiz
+        self.numeroDeFolhas+=1
 
     def addRec(self, atual, no, pai):
         no.pai = pai
@@ -63,12 +62,50 @@ class ArvoreBuscaBinaria:
         else:
             return atual
 
+
+
+    def minimo(self, atual= None):
+        if self.__raiz is None:
+            raise Exception("Arvore vazia")
+        if atual is None:
+            atual = self.__raiz
+        if atual.esquerda is not None:
+            return self.minimo(atual.esquerda)
+        else:
+            return atual.valor
+    
+    def maximo(self, atual= None):
+        if self.__raiz is None:
+            raise Exception("Arvore vazia")
+        if atual is None:
+            atual = self.__raiz
+        if atual.direita is not None:
+            return self.maximo(atual.direita)
+        else:
+            return atual
+
+
+    def imprimirRec(self, atual):
+        if atual != None:
+            print(atual.valor)
+            self.imprimirRec(atual.esquerda)
+            self.imprimirRec(atual.direita)
+
+    def imprimir(self):
+        self.imprimirRec(self.__raiz)
+
+
+
+
+##########################################
 a = ArvoreBuscaBinaria()
 
-a.add(1)
-a.add(2)
-a.add(3)
-a.add(4)
-a.add(5)
+a.add(8)
+a.add(14)
+a.add(13)
+a.add(15)
+a.add(12)
+a.add(55)
 
-print(a.buscar(3))
+
+a.imprimir()
