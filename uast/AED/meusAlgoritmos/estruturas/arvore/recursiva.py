@@ -95,17 +95,56 @@ class ArvoreBuscaBinaria:
         self.imprimirRec(self.__raiz)
 
 
+    def sucessor(self, valor):
+        atual = self.buscar(valor)
 
+        if atual is None:
+            return atual
+
+        if atual.direita is not None:
+            return self.minimo(atual.direita)
+
+        if atual.pai is not None and atual == atual.pai.esquerda:
+            return atual.pai
+        else:
+            sucessor = self.buscarSucessorRec(atual.pai)
+            return sucessor
+
+    def buscarSucessorRec(self, atual):
+        if atual.pai is not None and atual == atual.pai.direita:
+            return self.buscarSucessorRec(atual.pai)
+        if atual.pai is None:
+            return atual
+        return atual.pai
+
+    def antecessor(self, valor):
+        atual = self.buscar(valor)
+
+        if atual is None:
+            return atual
+
+        if atual.esquerda is not None:
+            return self.minimo(atual.esquerda)
+
+        if atual.pai is not None and atual == atual.pai.direita:
+            return atual.pai
+        else:
+            sucessor = self.buscarSucessorRec(atual.pai)
+            return sucessor
+    
+
+    def remover(self, valor):
+        pass
 
 ##########################################
 a = ArvoreBuscaBinaria()
 
+a.add(6)
+a.add(3)
+a.add(4)
 a.add(8)
-a.add(14)
-a.add(13)
-a.add(15)
-a.add(12)
-a.add(55)
+a.add(7)
+a.add(10)
 
 
-a.imprimir()
+print(a.sucessor(4).valor)
