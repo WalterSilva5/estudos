@@ -8,7 +8,8 @@ class ArvoreBuscaBinaria:
             self.esquerda = None
             self.direita = None
             self.valor = valor
-
+            self.fatorDeBalanceamento = 0
+            
         def __str__(self):
             return str(self.valor)
 
