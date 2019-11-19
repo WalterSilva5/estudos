@@ -132,9 +132,26 @@ class ArvoreBuscaBinaria:
             sucessor = self.buscarSucessorRec(atual.pai)
             return sucessor
     
-
+    def recortar(self, sera_removido, sera_recortado):
+        if sera_removido.pai is None:
+            self.raiz = sera_recortado
+        elif sera_removido == sera_removido.pai.esquerda:
+            sera_removido.pai.esquerda = sera_recortado
+        else:
+            sera_removido.pai.direita = sera_recortado
+            
+        if sera_recortado is not None:
+            sera_recortado.pai = ser_removido.pai
+        
     def remover(self, valor):
-        pass
+        alvo = self.buscar(valor)
+        
+        if alvo.esquerda is None:
+            self.recortar(alvo, alvo.direita)
+        elif alvo.direita is None:
+            self.recortar(alvo, alvo.esquerda)
+        else:
+            sucessor = self.sucessor(alvo.valor)
 
 ##########################################
 a = ArvoreBuscaBinaria()
