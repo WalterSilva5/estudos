@@ -7,3 +7,4 @@ class ModelTelaSistema(QObject):
     @mensagemErro.setter
     def mensagemErro(self, mensagem):
         self.mensagemErro = mensagem
+        
