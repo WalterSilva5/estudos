@@ -1,0 +1,56 @@
+{
+	"name": "vuejs-component-creator",
+	"icon": "images/logo.png",
+	"displayName": "vuejs-component-creator",
+	"description": "This extension help easy to create vuejs component with structure: index.js index.scss ComponentName.vue files",
+	"version": "0.0.3",
+	"publisher": "DevEscalus",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:vuejs-component-creator.createComponent"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "vuejs-component-creator.createComponent",
+				"title": "Create component"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"when": "explorerResourceIsFolder",
+					"command": "vuejs-component-creator.createComponent"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.49.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	},
+	"__metadata": {
+		"id": "68a2315a-3640-4633-be91-43955ffa1588",
+		"publisherId": "2739a816-1f40-4c7b-a9dd-893aa6c9cabd",
+		"publisherDisplayName": "DevEscalus",
+		"installedTimestamp": 1618932220640
+	}
+}

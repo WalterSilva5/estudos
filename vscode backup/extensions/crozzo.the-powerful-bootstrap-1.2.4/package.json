@@ -1,0 +1,47 @@
+{
+	"author": {
+		"name": "Yazid Alinurdienul Haq",
+		"email": "yazidalinurdienulhaq@gmail.com"
+	},
+	"name": "the-powerful-bootstrap",
+	"displayName": "The Powerful Bootstrap",
+	"description": "The Powerful Bootstrap Snippet",
+	"version": "1.2.4",
+	"repository": {
+		"url": "https://github.com/yazuidoari88/powerfulbootstrap"
+	},
+	"icon": "logo.png",
+	"engines": {
+		"vscode": "^1.36.0"
+	},
+	"publisher": "Crozzo",
+	"__metadata": {
+		"id": "7ed7b696-e3a2-4d12-b74d-be4e1a164a26",
+		"publisherId": "230cadc3-ee23-46ed-a9d2-d63aa1e8a50d",
+		"publisherDisplayName": "Crozzo",
+		"installedTimestamp": 1618695807612
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
