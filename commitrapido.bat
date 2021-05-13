@@ -1,3 +1,3 @@
 git add .
-git commit -m "commit rapido"
+git commit -m "CURSO DE VUEJS"
 git push origin master
