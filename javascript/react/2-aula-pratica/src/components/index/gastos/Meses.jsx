@@ -1,14 +1,12 @@
 import Mes from "./Mes";
-class Meses extends React.Component {
-  meses = [15, 20, 25, 30, 35];
+class gastos extends React.Component {
+  gastos = [];
   render() {
-    let linhas = this.meses.map((valor)=>{return <Mes valor={valor} key={valor}></Mes>})
-    return (
-      <div className="rounded py-4 bg-warning d-flex">
-        {linhas}
-      </div>
-    );
+    let linhas = this.gastos.map((valor) => {
+      return <Mes valor={valor} key={valor}></Mes>;
+    });
+    return <div className="rounded py-4 bg-warning d-flex">{linhas}</div>;
   }
 }
 
-export default Meses;
+export default gastos;
