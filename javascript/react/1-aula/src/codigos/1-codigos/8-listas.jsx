@@ -1,14 +1,10 @@
-import ReactDom from "react-dom";
+const App = () => {
+  let lista = ["a", "b", "c"];
+  let linhas = lista.map((letra) => {
+    return <li key={letra}>{letra}</li>;
+  });
+  console.log(linhas);
+  return <ul>{linhas}</ul>;
+};
 
-class App extends React.Component {
-  lista = ["a", "b", "c"];
-  render() {
-    let linhas = this.lista.map((letra) => {
-      return <li key={letra}>{letra}</li>;
-    });
-    console.log(linhas)
-    return <ul>{linhas}</ul>
-  }
-}
-
-ReactDom.render(<App />, document.getElementById("root"));
+export default App;

@@ -1,19 +1,21 @@
-import ReactDom from 'react-dom'
-import logo from "./favicon.svg";
+const Componente = (props) => {
+  const [teste, setTeste] = React.useState("valor de teste");
 
-let nome = "walter silva"
+  const mudarValorTeste = () => {
+    setTeste(props.nome);
+  };
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1> {nome}</h1>
-        <img src="{logo}"/>
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <h1>{props.nome}</h1>
+      <h1>{teste}</h1>
+      <button onClick={mudarValorTeste}>mudar nome</button>
+    </div>
+  );
+};
+
+const App = () => {
+  return <Componente nome="walter" />;
+};
 
 export default App;
-
-ReactDom.render(<App />, document.getElementById("root"));

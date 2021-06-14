@@ -1,19 +1,23 @@
 import ReactDom from "react-dom";
 
-class Clock extends React.Component {
-  
-  clique(){
-    alert("botão clicado");
-  }
-  
-  render() {
-    return (
-      <div>
-        <button onClick={this.clique}>TESTE</button>       
-        <button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
-      </div>
-    );
-  }
-}
+const clique = () => {
+  alert("botão clicado");
+};
 
-ReactDom.render(<Clock />, document.getElementById("root"));
+const alerta2 = (event) => {
+  console.log(event.target.value);
+};
+
+const CliqueApp = () => {
+  return (
+    <div>
+      <button onClick={clique}>TESTE</button>
+      <br />
+      <button onClick={alerta2} value="teste de evento">
+        teste evento
+      </button>
+    </div>
+  );
+};
+
+export default CliqueApp;

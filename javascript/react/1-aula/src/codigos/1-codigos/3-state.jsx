@@ -1,21 +1,18 @@
-import ReactDom from "react-dom";
-import logo from "./favicon.svg";
-
-//componente
 function Relogio(props) {
+  const [hora, setHora] = React.useState("");
+  setInterval(() => {
+    setHora(new Date().toLocaleTimeString());
+  }, 1000);
+
   return (
     <div>
-      <h2>Agora são: {props.hora.toLocaleTimeString()}</h2>
+      <h2>Agora são: {hora}</h2>
     </div>
   );
 }
 
-class App extends Component {
-  render() {
-    return <Relogio hora={new Date()}/>;
-  }
-}
+const App = () => {
+  return <Relogio />;
+};
 
-setInterval(() => {
-  ReactDom.render(<App />, document.getElementById("root"));
-}, 1000);
+export default App;

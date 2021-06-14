@@ -1,15 +1,22 @@
-import ReactDom from "react-dom";
+const App = () => {
+  const [logado, setLogado] = React.useState("");
 
-class App extends React.Component {
-  logado = true;
-  
-  render() {
-      if(this.logado){
-        return <h1>esta logado</h1>
-      }else{
-        return <h1>não esta logado</h1>
-      }
+  const mudarLogado = (e) => {
+    if (e.target.value == "sim") {
+      console.log(e.target.value);
+      setLogado(true);
+    } else if (e.target.value == "nao") {
+      console.log(e.target.value);
+      setLogado(false);
     }
-}
+  };
 
-ReactDom.render(<App />, document.getElementById("root"));
+  return (
+    <div>
+      {logado ? <h1>logado</h1> : <h1>nao logado</h1>}
+      <input onChange={mudarLogado} />
+    </div>
+  );
+};
+
+export default App;

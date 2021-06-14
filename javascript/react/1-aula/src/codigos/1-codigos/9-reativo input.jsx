@@ -1,29 +1,19 @@
-import ReactDom from "react-dom";
+const App = () => {
+  const [nome, setNome] = React.useState("");
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {value: ''};
+  const mudarNome = (event) => {
+    setNome(event.target.value);
+  };
 
-    this.handleChange = this.handleChange.bind(this);
-  }
+  return (
+    <form>
+      <label>
+        Name:
+        <input type="text" value={nome} onChange={mudarNome} />
+      </label>
+      <p>{nome}</p>
+    </form>
+  );
+};
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
-
-
-  render() {
-    return (
-      <form>
-        <label>
-          Name:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <p>{this.state.value}</p>
-      </form>
-    );
-  }
-}
-
-ReactDom.render(<App />, document.getElementById("root"));
+export default App;
