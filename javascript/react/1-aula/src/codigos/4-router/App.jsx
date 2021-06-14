@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Route, NavLink, Switch, Redirect } from 'react-router-dom';
-import Imagem from './Imagem/Imagem';
+import Imagem from './Imagem';
 import Pagina1 from './Pagina_1';
 import Pagina2 from './Pagina_2';
 
